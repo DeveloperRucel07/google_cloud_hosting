@@ -229,11 +229,6 @@ Your Django project is now running with:
 -   Automatic restarts\
 -   HTTPS encryption
 
-------------------------------------------------------------------------
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ------------------------------------------------------------------------
 
