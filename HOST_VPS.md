@@ -356,6 +356,10 @@ Certbot auto-renews certificates. Verify auto-renewal:
 
 ```bash
 sudo certbot renew --dry-run
+## add cronjob for automacally renew every month
+sudo crontab -e
+### an then add this line to the cron
+0 3 1 * * /usr/bin/certbot renew --quiet --deploy-hook "systemctl reload nginx"
 ```
 
 Check existing certificates:
